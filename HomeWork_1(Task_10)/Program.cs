@@ -8,6 +8,6 @@ Console.WriteLine("Число = " + num);
 
 int num1 = Math.Abs(num);
 
-string text = num.ToString();
+string text = num1.ToString();
 
 Console.WriteLine("Оставляем вторую цифру из трехзначного числа: " + num + " -> " + text[1]);
