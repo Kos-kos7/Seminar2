@@ -4,8 +4,9 @@
 
 Console.WriteLine("Генерирую случайное трехзначное число");
 int num = new Random().Next(100,1000);
-
 Console.WriteLine("Число = " + num);
+
+int num1 = Math.Abs(num);
 
 string text = num.ToString();
 
